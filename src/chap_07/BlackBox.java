@@ -63,4 +63,10 @@ public class BlackBox {
         // modelName = "test"; // 클래스 메소드에서 인스턴스 변수는 접근 불가
         canAutoReport = false; // 클래스 메소드에서 클래스 변수는 접근 가능
     }
+
+    public void appendModelName(String modelName) {
+        // 인스턴스 변수와 매개변수의 이름이 같기 때문에 this를 써줘야한다.
+        // modelName += modelName; // 전달받은 인수 + 전달받은 인수가 된다...
+        this.modelName += modelName; //
+    }
 }
