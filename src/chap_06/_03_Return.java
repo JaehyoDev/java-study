@@ -7,7 +7,6 @@ public class _03_Return {
         return phoneNumber;
     }
 
-
     // 호텔 주소
     public static String getAddress() {
         return "서울시 인사동";
