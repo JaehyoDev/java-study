@@ -4,7 +4,7 @@ import chap_07.camera.Camera;
 import chap_07.camera.FactoryCam;
 import chap_07.camera.SpeedCam;
 
-public class _14_Polymorphism {
+public class _14_1_Polymorphism {
     public static void main(String[] args) {
         // 다형성 (Polymorphism)
         // 부모 클래스로 서로 다른 형태의 객체를 만든다.
